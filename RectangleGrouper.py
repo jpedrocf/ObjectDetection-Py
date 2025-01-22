@@ -2,8 +2,8 @@ import cv2 as cv
 import numpy as np
 from matplotlib import pyplot as plt
 
-map_path = 'https://github.com/jpedrocf/MachineLearningStudies/blob/main/ObjectDetection/poringmap.jpg'
-poring_path = 'https://github.com/jpedrocf/MachineLearningStudies/blob/main/ObjectDetection/poringclose.jpg'
+map_path = 'https://github.com/jpedrocf/ObjectDetection-Py/blob/main/poringmap.jpg'
+poring_path = 'https://github.com/jpedrocf/ObjectDetection-Py/blob/main/poringclose.jpg'
 
 def localizadorPosicao(map_path, poring_path, pontodecorte=0.65, mododemarcar=None):
     map_img = cv.imread(map_path, cv.IMREAD_UNCHANGED)
