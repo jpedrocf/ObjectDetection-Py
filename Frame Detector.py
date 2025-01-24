@@ -5,7 +5,7 @@ import numpy as np
 map_img = cv.imread('https://github.com/jpedrocf/ObjectDetection-Py/blob/main/poringmap.jpg', cv.IMREAD_UNCHANGED)
 poring_img = cv.imread('https://github.com/jpedrocf/ObjectDetection-Py/blob/main/poringclose.jpg', cv.IMREAD_UNCHANGED)
 
-resultado = cv.matchTemplate(map_img, poring_img, cv.TM_CCOEFF_NORMED) 
+resultado = cv.matchTemplate(map_img, poring_img, cv.TM_CCOEFF_NORMED)
 
 # Teste de imagem
 # cv.imshow('Resultado', resultado)
