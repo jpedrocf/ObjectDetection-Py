@@ -3,8 +3,8 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 
-map_img = cv.imread('Caminho Interno', cv.IMREAD_UNCHANGED)
-poring_img = cv.imread('Caminho Interno', cv.IMREAD_UNCHANGED)
+map_img = cv.imread('Caminho Interno', cv.IMREAD_UNCHANGED) # Coloque aqui o caminho interno para a imagem
+poring_img = cv.imread('Caminho Interno', cv.IMREAD_UNCHANGED) # Coloque aqui o caminho interno para a imagem
 
 # dimensões da imagem
 poring_largura = poring_img.shape[1]
