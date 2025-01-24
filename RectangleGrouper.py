@@ -2,8 +2,8 @@ import cv2 as cv
 import numpy as np
 from matplotlib import pyplot as plt
 
-map_path = 'Caminho Interno'
-poring_path = 'Caminho Interno'
+map_path = 'Caminho Interno' # Coloque aqui o caminho interno para a imagem
+poring_path = 'Caminho Interno' # Coloque aqui o caminho interno para a imagem
 
 def localizadorPosicao(map_path, poring_path, pontodecorte=0.65, mododemarcar=None):
     map_img = cv.imread(map_path, cv.IMREAD_UNCHANGED)
